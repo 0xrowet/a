@@ -7,7 +7,7 @@ pkg install -y termux-api jq ncurses-utils
 # Fungsi untuk mengirim barcode ke server
 send_barcode() {
     IP=$1
-    PORT=12345
+    PORT=5000
     BARCODE=$2
     
     # Kirim barcode ke server desktop
